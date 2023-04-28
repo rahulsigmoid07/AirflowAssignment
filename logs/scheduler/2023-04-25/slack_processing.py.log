@@ -1,0 +1,1054 @@
+[2023-04-25T13:24:16.872+0000] {processor.py:153} INFO - Started process (PID=7187) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:24:16.874+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:24:16.874+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:24:16.874+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:24:16.880+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:24:16.879+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:24:16.881+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:24:16.897+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.027 seconds
+[2023-04-25T13:24:47.382+0000] {processor.py:153} INFO - Started process (PID=7265) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:24:47.384+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:24:47.384+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:24:47.384+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:24:47.390+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:24:47.388+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:24:47.390+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:24:47.414+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.035 seconds
+[2023-04-25T13:25:17.641+0000] {processor.py:153} INFO - Started process (PID=7331) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:25:17.643+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:25:17.645+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:25:17.645+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:25:17.652+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:25:17.650+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:25:17.653+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:25:17.674+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.038 seconds
+[2023-04-25T13:25:48.611+0000] {processor.py:153} INFO - Started process (PID=7409) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:25:48.615+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:25:48.617+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:25:48.617+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:25:48.629+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:25:48.627+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:25:48.630+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:25:48.650+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.045 seconds
+[2023-04-25T13:26:19.173+0000] {processor.py:153} INFO - Started process (PID=7487) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:26:19.175+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:26:19.177+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:26:19.177+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:26:19.185+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:26:19.184+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:26:19.186+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:26:19.208+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.042 seconds
+[2023-04-25T13:26:49.801+0000] {processor.py:153} INFO - Started process (PID=7566) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:26:49.802+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:26:49.803+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:26:49.803+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:26:49.808+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:26:49.807+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:26:49.808+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:26:49.824+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.026 seconds
+[2023-04-25T13:27:20.138+0000] {processor.py:153} INFO - Started process (PID=7632) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:27:20.140+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:27:20.141+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:27:20.141+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:27:20.146+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:27:20.145+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:27:20.148+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:27:20.174+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.039 seconds
+[2023-04-25T13:27:50.493+0000] {processor.py:153} INFO - Started process (PID=7711) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:27:50.495+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:27:50.496+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:27:50.496+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:27:50.502+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:27:50.501+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:27:50.503+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:27:50.523+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.035 seconds
+[2023-04-25T13:28:24.492+0000] {processor.py:153} INFO - Started process (PID=7765) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:28:24.526+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:28:24.540+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:28:24.535+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:28:25.001+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:28:24.999+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:28:25.005+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:28:25.151+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.673 seconds
+[2023-04-25T13:29:26.410+0000] {processor.py:153} INFO - Started process (PID=7815) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:29:26.411+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:29:26.412+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:29:26.412+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:29:26.416+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:29:26.416+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:29:26.417+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:29:26.432+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.025 seconds
+[2023-04-25T13:29:56.830+0000] {processor.py:153} INFO - Started process (PID=7890) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:29:56.831+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:29:56.832+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:29:56.832+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:29:56.837+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:29:56.836+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:29:56.838+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:29:56.854+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.026 seconds
+[2023-04-25T13:30:27.315+0000] {processor.py:153} INFO - Started process (PID=7954) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:30:27.316+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:30:27.317+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:30:27.317+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:30:27.322+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:30:27.321+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:30:27.322+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:30:27.338+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.026 seconds
+[2023-04-25T13:30:57.517+0000] {processor.py:153} INFO - Started process (PID=8032) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:30:57.518+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:30:57.519+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:30:57.519+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:30:57.524+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:30:57.523+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:30:57.524+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:30:57.541+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.027 seconds
+[2023-04-25T13:31:27.794+0000] {processor.py:153} INFO - Started process (PID=8110) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:31:27.795+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:31:27.797+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:31:27.796+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:31:27.802+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:31:27.801+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:31:27.803+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:31:27.828+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.039 seconds
+[2023-04-25T13:31:57.894+0000] {processor.py:153} INFO - Started process (PID=8168) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:31:57.896+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:31:57.898+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:31:57.898+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:31:57.905+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:31:57.904+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:31:57.906+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:31:57.929+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.041 seconds
+[2023-04-25T13:32:28.554+0000] {processor.py:153} INFO - Started process (PID=8245) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:32:28.556+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:32:28.558+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:32:28.558+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:32:28.564+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:32:28.563+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:32:28.566+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:32:28.587+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.038 seconds
+[2023-04-25T13:32:58.700+0000] {processor.py:153} INFO - Started process (PID=8323) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:32:58.701+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:32:58.703+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:32:58.702+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:32:58.709+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:32:58.707+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:32:58.710+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:32:58.732+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.038 seconds
+[2023-04-25T13:33:28.998+0000] {processor.py:153} INFO - Started process (PID=8389) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:33:29.005+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:33:29.006+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:33:29.006+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:33:29.011+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:33:29.010+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:33:29.012+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:33:29.030+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.035 seconds
+[2023-04-25T13:33:59.441+0000] {processor.py:153} INFO - Started process (PID=8467) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:33:59.443+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:33:59.444+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:33:59.444+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:33:59.451+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:33:59.450+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:33:59.452+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:33:59.475+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.041 seconds
+[2023-04-25T13:34:29.653+0000] {processor.py:153} INFO - Started process (PID=8545) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:34:29.654+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:34:29.655+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:34:29.655+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:34:29.662+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:34:29.660+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:34:29.663+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:34:29.686+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.037 seconds
+[2023-04-25T13:34:59.820+0000] {processor.py:153} INFO - Started process (PID=8611) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:34:59.821+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:34:59.822+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:34:59.822+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:34:59.827+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:34:59.827+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:34:59.828+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:34:59.847+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.030 seconds
+[2023-04-25T13:35:30.062+0000] {processor.py:153} INFO - Started process (PID=8689) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:35:30.064+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:35:30.065+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:35:30.065+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:35:30.072+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:35:30.071+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:35:30.073+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:35:30.095+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.039 seconds
+[2023-04-25T13:36:00.825+0000] {processor.py:153} INFO - Started process (PID=8767) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:36:00.826+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:36:00.828+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:36:00.828+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:36:00.835+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:36:00.833+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:36:00.836+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:36:00.857+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.038 seconds
+[2023-04-25T13:36:31.018+0000] {processor.py:153} INFO - Started process (PID=8833) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:36:31.020+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:36:31.021+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:36:31.021+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:36:31.027+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:36:31.026+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:36:31.028+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:36:31.049+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.036 seconds
+[2023-04-25T13:37:01.140+0000] {processor.py:153} INFO - Started process (PID=8911) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:37:01.142+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:37:01.145+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:37:01.145+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:37:01.152+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:37:01.151+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:37:01.153+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:37:01.176+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.040 seconds
+[2023-04-25T13:37:31.839+0000] {processor.py:153} INFO - Started process (PID=8987) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:37:31.841+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:37:31.845+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:37:31.845+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:37:31.853+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:37:31.852+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:37:31.854+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:37:31.876+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.040 seconds
+[2023-04-25T13:38:01.990+0000] {processor.py:153} INFO - Started process (PID=9053) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:38:01.992+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:38:01.993+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:38:01.993+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:38:01.997+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:38:01.996+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:38:01.998+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:38:02.014+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.030 seconds
+[2023-04-25T13:38:32.255+0000] {processor.py:153} INFO - Started process (PID=9131) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:38:32.256+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:38:32.257+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:38:32.257+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:38:32.262+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:38:32.261+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:38:32.262+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:38:32.278+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.027 seconds
+[2023-04-25T13:39:02.433+0000] {processor.py:153} INFO - Started process (PID=9209) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:39:02.435+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:39:02.436+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:39:02.436+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:39:02.444+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:39:02.443+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:39:02.445+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:39:02.467+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.040 seconds
+[2023-04-25T13:39:32.877+0000] {processor.py:153} INFO - Started process (PID=9275) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:39:32.879+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:39:32.880+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:39:32.880+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:39:32.886+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:39:32.885+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:39:32.887+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:39:32.908+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.037 seconds
+[2023-04-25T13:40:03.189+0000] {processor.py:153} INFO - Started process (PID=9354) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:40:03.191+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:40:03.192+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:40:03.192+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:40:03.198+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:40:03.197+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:40:03.199+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:40:03.218+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.033 seconds
+[2023-04-25T13:40:33.420+0000] {processor.py:153} INFO - Started process (PID=9432) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:40:33.423+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:40:33.424+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:40:33.424+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:40:33.430+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:40:33.429+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:40:33.431+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:40:33.452+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.037 seconds
+[2023-04-25T13:41:03.925+0000] {processor.py:153} INFO - Started process (PID=9498) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:41:03.926+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:41:03.928+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:41:03.928+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:41:03.936+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:41:03.934+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:41:03.937+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:41:03.958+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.040 seconds
+[2023-04-25T13:41:34.448+0000] {processor.py:153} INFO - Started process (PID=9575) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:41:34.450+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:41:34.451+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:41:34.451+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:41:34.461+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:41:34.459+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:41:34.462+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:41:34.485+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.042 seconds
+[2023-04-25T13:42:04.664+0000] {processor.py:153} INFO - Started process (PID=9653) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:42:04.665+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:42:04.666+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:42:04.666+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:42:04.670+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:42:04.670+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:42:04.671+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:42:04.690+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.029 seconds
+[2023-04-25T13:42:35.046+0000] {processor.py:153} INFO - Started process (PID=9719) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:42:35.048+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:42:35.050+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:42:35.050+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:42:35.057+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:42:35.055+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:42:35.058+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:42:35.080+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.039 seconds
+[2023-04-25T13:43:05.656+0000] {processor.py:153} INFO - Started process (PID=9797) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:43:05.658+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:43:05.659+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:43:05.659+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:43:05.666+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:43:05.665+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:43:05.668+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:43:05.688+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.038 seconds
+[2023-04-25T13:43:35.911+0000] {processor.py:153} INFO - Started process (PID=9875) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:43:35.912+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:43:35.914+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:43:35.914+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:43:35.922+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:43:35.920+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:43:35.923+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:43:35.944+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.040 seconds
+[2023-04-25T13:44:06.129+0000] {processor.py:153} INFO - Started process (PID=9941) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:44:06.130+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:44:06.131+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:44:06.131+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:44:06.137+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:44:06.135+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:44:06.138+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:44:06.154+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.028 seconds
+[2023-04-25T13:44:36.656+0000] {processor.py:153} INFO - Started process (PID=10017) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:44:36.660+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:44:36.663+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:44:36.662+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:44:36.673+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:44:36.671+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:44:36.674+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:44:36.696+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.046 seconds
+[2023-04-25T13:45:06.856+0000] {processor.py:153} INFO - Started process (PID=10094) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:45:06.858+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:45:06.859+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:45:06.859+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:45:06.866+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:45:06.865+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:45:06.867+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:45:06.889+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.039 seconds
+[2023-04-25T13:45:37.266+0000] {processor.py:153} INFO - Started process (PID=10160) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:45:37.268+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:45:37.269+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:45:37.269+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:45:37.276+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:45:37.275+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:45:37.277+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:45:37.299+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.038 seconds
+[2023-04-25T13:46:07.936+0000] {processor.py:153} INFO - Started process (PID=10238) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:46:07.938+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:46:07.940+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:46:07.940+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:46:07.947+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:46:07.945+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:46:07.948+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:46:07.970+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.039 seconds
+[2023-04-25T13:46:38.176+0000] {processor.py:153} INFO - Started process (PID=10316) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:46:38.178+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:46:38.180+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:46:38.180+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:46:38.186+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:46:38.185+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:46:38.187+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:46:38.209+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.038 seconds
+[2023-04-25T13:47:08.611+0000] {processor.py:153} INFO - Started process (PID=10382) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:47:08.612+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:47:08.613+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:47:08.613+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:47:08.618+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:47:08.617+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:47:08.619+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:47:08.638+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.030 seconds
+[2023-04-25T13:47:39.459+0000] {processor.py:153} INFO - Started process (PID=10460) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:47:39.461+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:47:39.463+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:47:39.462+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:47:39.473+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:47:39.472+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:47:39.475+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:47:39.496+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.043 seconds
+[2023-04-25T13:48:09.866+0000] {processor.py:153} INFO - Started process (PID=10538) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:48:09.867+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:48:09.869+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:48:09.869+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:48:09.875+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:48:09.874+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:48:09.876+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:48:09.898+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.037 seconds
+[2023-04-25T13:48:40.062+0000] {processor.py:153} INFO - Started process (PID=10609) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:48:40.063+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:48:40.064+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:48:40.064+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:48:40.070+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:48:40.069+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:48:40.070+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:48:40.102+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.045 seconds
+[2023-04-25T13:49:10.726+0000] {processor.py:153} INFO - Started process (PID=10680) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:49:10.728+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:49:10.730+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:49:10.730+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:49:10.738+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:49:10.737+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:49:10.739+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:49:10.760+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.040 seconds
+[2023-04-25T13:49:41.134+0000] {processor.py:153} INFO - Started process (PID=10759) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:49:41.136+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:49:41.137+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:49:41.137+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:49:41.144+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:49:41.143+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:49:41.145+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:49:41.166+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.038 seconds
+[2023-04-25T13:50:11.483+0000] {processor.py:153} INFO - Started process (PID=10834) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:50:11.485+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T13:50:11.485+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:50:11.485+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:50:11.504+0000] {logging_mixin.py:137} INFO - [2023-04-25T13:50:11.503+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T13:50:11.506+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T13:50:11.540+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.063 seconds
+[2023-04-25T14:07:48.667+0000] {processor.py:153} INFO - Started process (PID=10891) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T14:07:48.668+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T14:07:48.669+0000] {logging_mixin.py:137} INFO - [2023-04-25T14:07:48.669+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T14:07:48.675+0000] {logging_mixin.py:137} INFO - [2023-04-25T14:07:48.674+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T14:07:48.676+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T14:07:48.705+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.042 seconds
+[2023-04-25T14:43:15.744+0000] {processor.py:153} INFO - Started process (PID=10957) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T14:43:15.745+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T14:43:15.746+0000] {logging_mixin.py:137} INFO - [2023-04-25T14:43:15.746+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T14:43:15.751+0000] {logging_mixin.py:137} INFO - [2023-04-25T14:43:15.750+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T14:43:15.751+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T14:43:15.768+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.028 seconds
+[2023-04-25T15:21:24.838+0000] {processor.py:153} INFO - Started process (PID=11035) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T15:21:24.840+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T15:21:24.840+0000] {logging_mixin.py:137} INFO - [2023-04-25T15:21:24.840+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T15:21:24.858+0000] {logging_mixin.py:137} INFO - [2023-04-25T15:21:24.857+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T15:21:24.861+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T15:21:24.891+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.057 seconds
+[2023-04-25T16:43:24.263+0000] {processor.py:153} INFO - Started process (PID=11113) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T16:43:24.265+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T16:43:24.267+0000] {logging_mixin.py:137} INFO - [2023-04-25T16:43:24.267+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T16:43:24.274+0000] {logging_mixin.py:137} INFO - [2023-04-25T16:43:24.273+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T16:43:24.275+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T16:43:24.301+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.042 seconds
+[2023-04-25T17:48:01.123+0000] {processor.py:153} INFO - Started process (PID=11179) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T17:48:01.124+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T17:48:01.125+0000] {logging_mixin.py:137} INFO - [2023-04-25T17:48:01.125+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T17:48:01.129+0000] {logging_mixin.py:137} INFO - [2023-04-25T17:48:01.128+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T17:48:01.129+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T17:48:01.145+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.026 seconds
+[2023-04-25T18:54:48.931+0000] {processor.py:153} INFO - Started process (PID=11257) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T18:54:48.934+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T18:54:48.936+0000] {logging_mixin.py:137} INFO - [2023-04-25T18:54:48.935+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T18:54:48.943+0000] {logging_mixin.py:137} INFO - [2023-04-25T18:54:48.942+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T18:54:48.947+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T18:54:48.979+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.052 seconds
+[2023-04-25T20:00:47.653+0000] {processor.py:153} INFO - Started process (PID=11335) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T20:00:47.656+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T20:00:47.657+0000] {logging_mixin.py:137} INFO - [2023-04-25T20:00:47.657+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T20:00:47.668+0000] {logging_mixin.py:137} INFO - [2023-04-25T20:00:47.667+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T20:00:47.669+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T20:00:47.705+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.057 seconds
+[2023-04-25T21:11:37.202+0000] {processor.py:153} INFO - Started process (PID=11401) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T21:11:37.203+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T21:11:37.204+0000] {logging_mixin.py:137} INFO - [2023-04-25T21:11:37.204+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T21:11:37.208+0000] {logging_mixin.py:137} INFO - [2023-04-25T21:11:37.207+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T21:11:37.209+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T21:11:37.224+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.026 seconds
+[2023-04-25T21:28:46.560+0000] {processor.py:153} INFO - Started process (PID=11479) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T21:28:46.561+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T21:28:46.562+0000] {logging_mixin.py:137} INFO - [2023-04-25T21:28:46.562+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T21:28:46.567+0000] {logging_mixin.py:137} INFO - [2023-04-25T21:28:46.566+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T21:28:46.568+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T21:28:46.594+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.037 seconds
+[2023-04-25T22:53:45.268+0000] {processor.py:153} INFO - Started process (PID=11558) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T22:53:45.269+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T22:53:45.270+0000] {logging_mixin.py:137} INFO - [2023-04-25T22:53:45.270+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T22:53:45.276+0000] {logging_mixin.py:137} INFO - [2023-04-25T22:53:45.275+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T22:53:45.277+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T22:53:45.310+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.050 seconds
+[2023-04-25T23:58:46.295+0000] {processor.py:153} INFO - Started process (PID=11624) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-25T23:58:46.299+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-25T23:58:46.301+0000] {logging_mixin.py:137} INFO - [2023-04-25T23:58:46.300+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-25T23:58:46.306+0000] {logging_mixin.py:137} INFO - [2023-04-25T23:58:46.305+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/slack_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_processing.py", line 10
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-25T23:58:46.307+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-25T23:58:46.341+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.052 seconds

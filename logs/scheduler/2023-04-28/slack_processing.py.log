@@ -1,0 +1,333 @@
+[2023-04-28T00:36:29.778+0000] {processor.py:153} INFO - Started process (PID=14536) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T00:36:29.779+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T00:36:29.780+0000] {logging_mixin.py:137} INFO - [2023-04-28T00:36:29.780+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T00:36:29.847+0000] {logging_mixin.py:137} INFO - [2023-04-28T00:36:29.847+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T00:36:29.851+0000] {logging_mixin.py:137} INFO - [2023-04-28T00:36:29.851+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T00:36:29.861+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T00:36:29.879+0000] {logging_mixin.py:137} INFO - [2023-04-28T00:36:29.878+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T00:36:29.918+0000] {logging_mixin.py:137} INFO - [2023-04-28T00:36:29.918+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T00:36:29.954+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.178 seconds
+[2023-04-28T01:42:51.283+0000] {processor.py:153} INFO - Started process (PID=14606) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T01:42:51.284+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T01:42:51.285+0000] {logging_mixin.py:137} INFO - [2023-04-28T01:42:51.285+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T01:42:51.324+0000] {logging_mixin.py:137} INFO - [2023-04-28T01:42:51.324+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T01:42:51.326+0000] {logging_mixin.py:137} INFO - [2023-04-28T01:42:51.326+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T01:42:51.333+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T01:42:51.342+0000] {logging_mixin.py:137} INFO - [2023-04-28T01:42:51.342+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T01:42:51.357+0000] {logging_mixin.py:137} INFO - [2023-04-28T01:42:51.357+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T01:42:51.369+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.089 seconds
+[2023-04-28T02:48:39.590+0000] {processor.py:153} INFO - Started process (PID=14684) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T02:48:39.594+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T02:48:39.595+0000] {logging_mixin.py:137} INFO - [2023-04-28T02:48:39.594+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T02:48:39.672+0000] {logging_mixin.py:137} INFO - [2023-04-28T02:48:39.672+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T02:48:39.675+0000] {logging_mixin.py:137} INFO - [2023-04-28T02:48:39.675+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T02:48:39.691+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T02:48:39.711+0000] {logging_mixin.py:137} INFO - [2023-04-28T02:48:39.711+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T02:48:39.737+0000] {logging_mixin.py:137} INFO - [2023-04-28T02:48:39.737+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T02:48:39.763+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.177 seconds
+[2023-04-28T03:54:52.885+0000] {processor.py:153} INFO - Started process (PID=14761) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T03:54:52.897+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T03:54:52.902+0000] {logging_mixin.py:137} INFO - [2023-04-28T03:54:52.902+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T03:54:53.004+0000] {logging_mixin.py:137} INFO - [2023-04-28T03:54:53.004+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T03:54:53.007+0000] {logging_mixin.py:137} INFO - [2023-04-28T03:54:53.007+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T03:54:53.018+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T03:54:53.036+0000] {logging_mixin.py:137} INFO - [2023-04-28T03:54:53.036+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T03:54:53.070+0000] {logging_mixin.py:137} INFO - [2023-04-28T03:54:53.070+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T03:54:53.111+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.230 seconds
+[2023-04-28T05:16:14.870+0000] {processor.py:153} INFO - Started process (PID=14827) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T05:16:14.871+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T05:16:14.872+0000] {logging_mixin.py:137} INFO - [2023-04-28T05:16:14.872+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T05:16:14.914+0000] {logging_mixin.py:137} INFO - [2023-04-28T05:16:14.913+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T05:16:14.916+0000] {logging_mixin.py:137} INFO - [2023-04-28T05:16:14.916+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T05:16:14.923+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T05:16:14.932+0000] {logging_mixin.py:137} INFO - [2023-04-28T05:16:14.932+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T05:16:14.948+0000] {logging_mixin.py:137} INFO - [2023-04-28T05:16:14.948+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T05:16:14.960+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.093 seconds
+[2023-04-28T05:32:11.251+0000] {processor.py:153} INFO - Started process (PID=14907) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T05:32:11.253+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T05:32:11.254+0000] {logging_mixin.py:137} INFO - [2023-04-28T05:32:11.254+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T05:32:11.333+0000] {logging_mixin.py:137} INFO - [2023-04-28T05:32:11.333+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T05:32:11.336+0000] {logging_mixin.py:137} INFO - [2023-04-28T05:32:11.336+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T05:32:11.352+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T05:32:11.374+0000] {logging_mixin.py:137} INFO - [2023-04-28T05:32:11.374+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T05:32:11.402+0000] {logging_mixin.py:137} INFO - [2023-04-28T05:32:11.402+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T05:32:11.429+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.181 seconds
+[2023-04-28T05:32:42.018+0000] {processor.py:153} INFO - Started process (PID=14984) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T05:32:42.020+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T05:32:42.021+0000] {logging_mixin.py:137} INFO - [2023-04-28T05:32:42.021+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T05:32:42.063+0000] {logging_mixin.py:137} INFO - [2023-04-28T05:32:42.063+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T05:32:42.065+0000] {logging_mixin.py:137} INFO - [2023-04-28T05:32:42.065+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T05:32:42.072+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T05:32:42.082+0000] {logging_mixin.py:137} INFO - [2023-04-28T05:32:42.082+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T05:32:42.098+0000] {logging_mixin.py:137} INFO - [2023-04-28T05:32:42.098+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T05:32:42.108+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.093 seconds
+[2023-04-28T06:03:54.038+0000] {processor.py:153} INFO - Started process (PID=15051) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:03:54.041+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T06:03:54.046+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:03:54.046+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:03:54.139+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:03:54.139+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:03:54.149+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:03:54.149+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:03:54.170+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:03:54.196+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:03:54.196+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T06:03:54.236+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:03:54.235+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T06:03:54.258+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.223 seconds
+[2023-04-28T06:04:40.148+0000] {processor.py:153} INFO - Started process (PID=15130) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:04:40.149+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T06:04:40.150+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:04:40.150+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:04:40.190+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:04:40.190+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:04:40.192+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:04:40.192+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:04:40.199+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:04:40.208+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:04:40.208+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T06:04:40.224+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:04:40.224+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T06:04:40.237+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.094 seconds
+[2023-04-28T06:05:10.513+0000] {processor.py:153} INFO - Started process (PID=15208) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:05:10.515+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T06:05:10.517+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:05:10.517+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:05:10.569+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:05:10.569+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:05:10.574+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:05:10.574+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:05:10.584+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:05:10.595+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:05:10.595+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T06:05:10.621+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:05:10.621+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T06:05:10.644+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.133 seconds
+[2023-04-28T06:05:41.319+0000] {processor.py:153} INFO - Started process (PID=15274) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:05:41.322+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T06:05:41.324+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:05:41.324+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:05:41.374+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:05:41.374+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:05:41.377+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:05:41.376+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:05:41.384+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:05:41.394+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:05:41.394+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T06:05:41.409+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:05:41.409+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T06:05:41.421+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.108 seconds
+[2023-04-28T06:06:11.596+0000] {processor.py:153} INFO - Started process (PID=15354) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:06:11.598+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T06:06:11.600+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:06:11.599+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:06:11.647+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:06:11.647+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:06:11.649+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:06:11.649+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:06:11.656+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:06:11.665+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:06:11.665+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T06:06:11.681+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:06:11.681+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T06:06:11.693+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.103 seconds
+[2023-04-28T06:06:41.925+0000] {processor.py:153} INFO - Started process (PID=15431) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:06:41.936+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T06:06:41.938+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:06:41.938+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:06:42.018+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:06:42.018+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:06:42.021+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:06:42.021+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:06:42.029+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:06:42.039+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:06:42.039+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T06:06:42.059+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:06:42.059+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T06:06:42.074+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.159 seconds
+[2023-04-28T06:07:12.664+0000] {processor.py:153} INFO - Started process (PID=15498) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:07:12.667+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T06:07:12.668+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:07:12.668+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:07:12.722+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:07:12.722+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:07:12.725+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:07:12.725+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:07:12.733+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:07:12.743+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:07:12.742+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T06:07:12.759+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:07:12.759+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T06:07:12.770+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.114 seconds
+[2023-04-28T06:07:43.064+0000] {processor.py:153} INFO - Started process (PID=15576) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:07:43.066+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T06:07:43.067+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:07:43.067+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:07:43.116+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:07:43.116+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:07:43.118+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:07:43.118+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:07:43.126+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:07:43.136+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:07:43.136+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T06:07:43.152+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:07:43.152+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T06:07:43.163+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.104 seconds
+[2023-04-28T06:08:13.468+0000] {processor.py:153} INFO - Started process (PID=15654) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:08:13.470+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T06:08:13.471+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:08:13.471+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:08:13.519+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:08:13.519+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:08:13.522+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:08:13.522+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:08:13.531+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:08:13.548+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:08:13.548+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T06:08:13.572+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:08:13.572+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T06:08:13.595+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.130 seconds
+[2023-04-28T06:08:43.889+0000] {processor.py:153} INFO - Started process (PID=15720) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:08:43.892+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T06:08:43.893+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:08:43.893+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:08:43.947+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:08:43.947+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:08:43.949+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:08:43.949+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:08:43.957+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:08:43.972+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:08:43.971+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T06:08:43.991+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:08:43.991+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T06:08:44.005+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.123 seconds
+[2023-04-28T06:09:14.466+0000] {processor.py:153} INFO - Started process (PID=15798) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:09:14.468+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T06:09:14.470+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:09:14.470+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:09:14.520+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:09:14.520+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:09:14.523+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:09:14.522+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:09:14.530+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:09:14.540+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:09:14.540+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T06:09:14.556+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:09:14.556+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T06:09:14.569+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.108 seconds
+[2023-04-28T06:09:44.905+0000] {processor.py:153} INFO - Started process (PID=15874) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:09:44.910+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T06:09:44.911+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:09:44.911+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:09:44.978+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:09:44.978+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:09:44.980+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:09:44.980+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:09:44.989+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:09:45.013+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:09:45.005+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T06:09:45.047+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:09:45.047+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T06:09:45.067+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.164 seconds
+[2023-04-28T06:10:15.847+0000] {processor.py:153} INFO - Started process (PID=15942) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:10:15.849+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T06:10:15.851+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:10:15.850+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:10:15.898+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:10:15.898+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:10:15.901+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:10:15.900+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:10:15.908+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:10:15.918+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:10:15.917+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T06:10:15.934+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:10:15.934+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T06:10:15.946+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.104 seconds
+[2023-04-28T06:10:46.216+0000] {processor.py:153} INFO - Started process (PID=16020) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:10:46.219+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T06:10:46.221+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:10:46.221+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:10:46.271+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:10:46.271+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:10:46.273+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:10:46.273+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:10:46.281+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:10:46.291+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:10:46.291+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T06:10:46.307+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:10:46.307+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T06:10:46.319+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.109 seconds
+[2023-04-28T06:11:16.619+0000] {processor.py:153} INFO - Started process (PID=16098) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:11:16.626+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T06:11:16.631+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:11:16.631+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:11:16.692+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:11:16.692+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:11:16.694+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:11:16.694+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:11:16.701+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:11:16.711+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:11:16.711+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T06:11:16.733+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:11:16.733+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T06:11:16.746+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.130 seconds
+[2023-04-28T06:11:47.172+0000] {processor.py:153} INFO - Started process (PID=16164) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:11:47.174+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T06:11:47.176+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:11:47.175+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:11:47.232+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:11:47.232+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:11:47.234+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:11:47.234+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:11:47.242+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:11:47.252+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:11:47.252+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T06:11:47.269+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:11:47.269+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T06:11:47.283+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.119 seconds
+[2023-04-28T06:12:17.919+0000] {processor.py:153} INFO - Started process (PID=16242) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:12:17.923+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T06:12:17.924+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:12:17.924+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:12:17.972+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:12:17.972+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:12:17.975+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:12:17.975+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:12:17.982+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:12:17.992+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:12:17.992+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T06:12:18.012+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:12:18.012+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T06:12:18.023+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.110 seconds
+[2023-04-28T06:12:48.277+0000] {processor.py:153} INFO - Started process (PID=16319) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:12:48.278+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T06:12:48.280+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:12:48.280+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:12:48.354+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:12:48.354+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:12:48.357+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:12:48.357+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:12:48.372+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:12:48.394+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:12:48.394+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T06:12:48.423+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:12:48.423+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T06:12:48.451+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.180 seconds
+[2023-04-28T06:13:18.864+0000] {processor.py:153} INFO - Started process (PID=16386) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:13:18.866+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T06:13:18.867+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:13:18.866+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:13:18.906+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:13:18.906+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:13:18.909+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:13:18.909+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:13:18.917+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:13:18.929+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:13:18.929+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T06:13:18.953+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:13:18.953+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T06:13:18.970+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.109 seconds
+[2023-04-28T06:13:49.425+0000] {processor.py:153} INFO - Started process (PID=16464) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:13:49.428+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T06:13:49.430+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:13:49.430+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:13:49.478+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:13:49.477+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:13:49.480+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:13:49.480+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:13:49.487+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:13:49.496+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:13:49.496+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T06:13:49.513+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:13:49.513+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T06:13:49.524+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.105 seconds
+[2023-04-28T06:14:19.796+0000] {processor.py:153} INFO - Started process (PID=16542) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:14:19.798+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T06:14:19.800+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:14:19.800+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:14:19.856+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:14:19.856+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:14:19.861+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:14:19.861+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:14:19.872+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:14:19.887+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:14:19.887+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T06:14:19.916+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:14:19.916+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T06:14:19.943+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.150 seconds
+[2023-04-28T06:14:50.184+0000] {processor.py:153} INFO - Started process (PID=16607) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:14:50.186+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T06:14:50.188+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:14:50.187+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:14:50.236+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:14:50.236+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:14:50.238+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:14:50.238+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:14:50.246+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:14:50.255+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:14:50.255+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T06:14:50.271+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:14:50.270+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T06:14:50.282+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.105 seconds
+[2023-04-28T06:15:20.744+0000] {processor.py:153} INFO - Started process (PID=16685) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:15:20.746+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T06:15:20.747+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:15:20.747+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:15:20.804+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:15:20.804+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:15:20.806+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:15:20.806+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:15:20.814+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:15:20.824+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:15:20.823+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T06:15:20.841+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:15:20.840+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T06:15:20.852+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.113 seconds
+[2023-04-28T06:15:51.134+0000] {processor.py:153} INFO - Started process (PID=16762) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:15:51.136+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T06:15:51.137+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:15:51.137+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:15:51.184+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:15:51.184+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:15:51.186+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:15:51.186+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:15:51.194+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:15:51.203+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:15:51.203+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T06:15:51.219+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:15:51.219+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T06:15:51.231+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.102 seconds
+[2023-04-28T06:16:21.382+0000] {processor.py:153} INFO - Started process (PID=16827) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:16:21.385+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T06:16:21.387+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:16:21.386+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:16:21.435+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:16:21.435+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:16:21.437+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:16:21.437+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:16:21.445+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:16:21.454+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:16:21.454+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T06:16:21.470+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:16:21.470+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T06:16:21.482+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.105 seconds
+[2023-04-28T06:16:51.689+0000] {processor.py:153} INFO - Started process (PID=16905) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:16:51.691+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T06:16:51.693+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:16:51.693+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:16:51.741+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:16:51.741+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:16:51.743+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:16:51.743+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:16:51.751+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:16:51.760+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:16:51.760+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T06:16:51.775+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:16:51.775+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T06:16:51.787+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.104 seconds
+[2023-04-28T06:17:22.301+0000] {processor.py:153} INFO - Started process (PID=16983) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:17:22.305+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T06:17:22.306+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:17:22.306+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:17:22.358+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:17:22.358+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:17:22.361+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:17:22.361+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:17:22.369+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:17:22.378+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:17:22.378+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T06:17:22.396+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:17:22.395+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T06:17:22.407+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.112 seconds
+[2023-04-28T06:17:52.658+0000] {processor.py:153} INFO - Started process (PID=17049) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:17:52.661+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T06:17:52.662+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:17:52.662+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:17:52.706+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:17:52.706+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:17:52.708+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:17:52.708+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:17:52.715+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:17:52.725+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:17:52.725+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T06:17:52.740+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:17:52.740+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T06:17:52.752+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.099 seconds
+[2023-04-28T06:18:23.306+0000] {processor.py:153} INFO - Started process (PID=17127) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:18:23.308+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T06:18:23.310+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:18:23.310+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:18:23.357+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:18:23.357+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:18:23.360+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:18:23.359+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:18:23.368+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:18:23.377+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:18:23.377+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T06:18:23.393+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:18:23.392+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T06:18:23.404+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.105 seconds
+[2023-04-28T06:18:53.611+0000] {processor.py:153} INFO - Started process (PID=17205) to work on /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:18:53.613+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/slack_processing.py for tasks to queue
+[2023-04-28T06:18:53.615+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:18:53.615+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:18:53.665+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:18:53.665+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:18:53.668+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:18:53.667+0000] {base.py:73} INFO - Using connection ID 'slack_conn_id' for task execution.
+[2023-04-28T06:18:53.675+0000] {processor.py:753} INFO - DAG(s) dict_keys(['slack_processing']) retrieved from /opt/airflow/dags/slack_processing.py
+[2023-04-28T06:18:53.684+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:18:53.684+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-04-28T06:18:53.700+0000] {logging_mixin.py:137} INFO - [2023-04-28T06:18:53.700+0000] {dag.py:3441} INFO - Setting next_dagrun for slack_processing to 2023-04-28T00:00:00+00:00, run_after=2023-04-29T00:00:00+00:00
+[2023-04-28T06:18:53.712+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/slack_processing.py took 0.108 seconds

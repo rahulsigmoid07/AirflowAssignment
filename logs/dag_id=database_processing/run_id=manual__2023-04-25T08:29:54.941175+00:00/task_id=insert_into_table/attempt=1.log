@@ -1,0 +1,50 @@
+[2023-04-25T08:29:57.534+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: database_processing.insert_into_table manual__2023-04-25T08:29:54.941175+00:00 [queued]>
+[2023-04-25T08:29:57.541+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: database_processing.insert_into_table manual__2023-04-25T08:29:54.941175+00:00 [queued]>
+[2023-04-25T08:29:57.541+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-25T08:29:57.542+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-04-25T08:29:57.542+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-25T08:29:57.551+0000] {taskinstance.py:1300} INFO - Executing <Task(PostgresOperator): insert_into_table> on 2023-04-25 08:29:54.941175+00:00
+[2023-04-25T08:29:57.557+0000] {standard_task_runner.py:55} INFO - Started process 9047 to run task
+[2023-04-25T08:29:57.560+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'database_processing', 'insert_into_table', 'manual__2023-04-25T08:29:54.941175+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/database_processing.py', '--cfg-path', '/tmp/tmp9gqeyx65']
+[2023-04-25T08:29:57.561+0000] {standard_task_runner.py:83} INFO - Job 14: Subtask insert_into_table
+[2023-04-25T08:29:57.614+0000] {task_command.py:388} INFO - Running <TaskInstance: database_processing.insert_into_table manual__2023-04-25T08:29:54.941175+00:00 [running]> on host 2f9666fcabde
+[2023-04-25T08:29:57.668+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=database_processing
+AIRFLOW_CTX_TASK_ID=insert_into_table
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-25T08:29:54.941175+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-04-25T08:29:54.941175+00:00
+[2023-04-25T08:29:57.669+0000] {sql.py:254} INFO - Executing: 
+            INSERT INTO USERS VALUES
+            (2,'shubham','rshuh@gmail.com','+917938535736','hyderabad','amazon'),
+            (3,'pankaj','pankajksh@gmail.com','+917838895736','bihar','apple'),
+            (4,'raj','rajkumar@gmail.com','+916783456890','ranchi','aidash');
+        
+[2023-04-25T08:29:57.679+0000] {base.py:73} INFO - Using connection ID 'postgres' for task execution.
+[2023-04-25T08:29:57.800+0000] {base.py:73} INFO - Using connection ID 'postgres' for task execution.
+[2023-04-25T08:29:57.813+0000] {sql.py:375} INFO - Running statement: 
+            INSERT INTO USERS VALUES
+            (2,'shubham','rshuh@gmail.com','+917938535736','hyderabad','amazon'),
+            (3,'pankaj','pankajksh@gmail.com','+917838895736','bihar','apple'),
+            (4,'raj','rajkumar@gmail.com','+916783456890','ranchi','aidash');
+        , parameters: None
+[2023-04-25T08:29:57.817+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py", line 266, in execute
+    **extra_kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/hooks/sql.py", line 349, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/hooks/sql.py", line 380, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "users_pkey"
+DETAIL:  Key (id)=(2) already exists.
+
+[2023-04-25T08:29:57.830+0000] {taskinstance.py:1323} INFO - Marking task as FAILED. dag_id=database_processing, task_id=insert_into_table, execution_date=20230425T082954, start_date=20230425T082957, end_date=20230425T082957
+[2023-04-25T08:29:57.841+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 14 for task insert_into_table (duplicate key value violates unique constraint "users_pkey"
+DETAIL:  Key (id)=(2) already exists.
+; 9047)
+[2023-04-25T08:29:57.895+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-04-25T08:29:57.923+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check
